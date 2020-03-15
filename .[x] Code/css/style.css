@@ -1,0 +1,40 @@
+section{
+    color: #2f3542;
+    text-align: center;
+    padding: 3vh;
+}
+
+.avatar img{
+    margin: 3vh;
+}
+
+.tieude{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.tieude strong{
+    color: #1e90ff;
+}
+.tieude p{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 3vh;
+}
+
+.danhsach li{
+    display: inline;
+    margin: 0 30px;
+}
+.danhsach li a{
+    background-color: #2f3542;
+    color: aliceblue;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 56px;
+    min-width: 190px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.danhsach li a:hover{
+    background-color: #1e90ff;
+}
